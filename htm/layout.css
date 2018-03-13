@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bloco{
+    width:49%;
+    float:left;
+}
+
+.bloco h3{
+    background: url(https://www.rumo.com.br/lojas/00020861/images/seta_branca.png) no-repeat #143D70;
+    display:block;
+    height:30px;
+    padding-top:3px;
+    padding-left:40px;
+    color:#FFF;
+}
+
+.videos-tit h3{
+    background: url(https://www.rumo.com.br/lojas/00020861/images/video.png) no-repeat #ff0000;
+    margin-left:1%;
+}
+
+
+.play{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    }
+
+.lista{list-style-type: square}
+
+.lista li{display: block; margin: 0 0 0 10px !important; padding: 2!important;}
+
+
+.clear{ clear:both;}
+
+
+
+
+
+
+
+
+/*TOPO*/
+.mallTopo {width:971px; margin:0 auto; text-align:left}
+.minfoTopo { height:223px;background:#4D7FC8 url(https://www.rumo.com.br/lojas/00020861/images/bginfotopo2.png) no-repeat; position:relative}
+.minfoTopo .mlogo { position:absolute; width:385px; height:137px; left:1px; top:0}
+.minfoTopo .mtel { position:absolute; width:122px; height:32px; left:451px; top:7px; font-size:16px; font-weight:bold; color:#fff}
+.minfoTopo .mnav1 { position:absolute; width:410px; height:41px; right:0; top:0}
+
+.mnav1 ul li a { color:#E4E4E4; text-decoration:none; font-size:1px}
+.mnav1 ul li { float:left}
+.mnav1 ul li a { display:block; height:41px; padding:0; margin:0; background-image:url(https://www.rumo.com.br/lojas/00020861/images/bts2.png); background-repeat:no-repeat}
+.mnav1 ul li .bts1 { background-position: 0 0; width:92px; color:#ED2A2B }
+.mnav1 ul li .bts2 { background-position: -92px 0; width:102px }
+.mnav1 ul li .bts3 { background-position: -194px 0; width:91px }
+.mnav1 ul li .bts4 { background-position: -285px 0; width:119px }
+.mnav1 ul li .bts1:hover { background-position: 0 -41px }
+.mnav1 ul li .bts2:hover { background-position: -92px -41px }
+.mnav1 ul li .bts3:hover { background-position: -194px -41px }
+.mnav1 ul li .bts4:hover { background-position: -285px -41px }
+
+.minfoTopo .mestatistica { position:absolute; width:140px; height:71px; left:413px; top:66px; font-size:12px; color:#3C6684}
+.minfoTopo .mestatistica strong {font-style:italic; color:#042339}
+.minfoTopo .mestatistica span.tit, .minfoTopo .mcarrinho .tit { display:block; padding-bottom:4px; color:#617381; font-weight:bold; font-size:15px; font-style:italic}
+.minfoTopo .mcarrinho a.tit { text-decoration:none; font-size:14px}
+.mcarrinho .tit:hover {color:#2664BE}
+.minfoTopo .mcarrinho { position:absolute; width:184px; height:76px; left:615px; top:61px}
+.mcarrinho .tcItens { color:#797979; font-size:12px; line-height:24px}
+.mcarrinho .tcItens strong { font-size:13px; color:#2664BE}
+.minfoTopo .mselo { position:absolute; width:111px; height:96px; right:10px; top:51px}
+.minfoTopo .mnav2 { position:absolute; width:490px; height:51px; left:29px; top:162px}
+
+.mnav2 ul li { float:left}
+.mnav2 ul li a { display:block; height:51px; padding:0; margin:0; background-image:url(../loja-img/bts2.png); background-repeat:no-repeat}
+.mnav2 ul li a { color:#C7C7C7; text-decoration:none; font-size:1px}
+.mnav2 ul li a:hover { color:#1F56A2}
+.mnav2 ul li .bts1 { background-position: 0 -82px; width:82px; }
+.mnav2 ul li .bts2 { background-position: -82px -82px; width:89px }
+.mnav2 ul li .bts3 { background-position: -171px -82px; width:109px }
+.mnav2 ul li .bts4 { background-position: -280px -82px; width:97px }
+.mnav2 ul li .bts5 { background-position: -377px -82px; width:110px }
+.mnav2 ul li .bts1:hover { background-position: 0 -133px }
+.mnav2 ul li .bts2:hover { background-position: -82px -133px }
+.mnav2 ul li .bts3:hover { background-position: -171px -133px }
+.mnav2 ul li .bts4:hover { background-position: -280px -133px }
+.mnav2 ul li .bts5:hover { background-position: -377px -133px }
+
+.minfoTopo .mbusca { position:absolute; width:424px; height:29px; right:21px; top:167px}
+.tbcampo { width:367px; color:#666; float:left; border:none; background:url(../loja-img/bgbusca.png) repeat-x; font-size:13px; height:29px; margin:0}
+.tbbotao { width:40px; height:29px; float:left; border:none; margin:0}
+
+.minfoTopo .mbuscaA { position:absolute; width:111px; height:15px; right:31px; top:197px}
+.mbuscaA a { font-size:12px; font-weight:bold; color:#fff; text-decoration:none; text-shadow:0px 0px 2px #000 }
+.mbuscaA a:hover { color:#BEBCBC; text-shadow:none}
+
+.mbannerTopo { height:155px; display:none;}
+.mfimTopo { height:72px;background:#90B0DE url(https://www.rumo.com.br/lojas/00020861/images/bgfimtopo.png) no-repeat}
+.mfimTopoPed { height:30px;background:#90B0DE url(../loja-img/mfimtopoped.png) no-repeat}
+.mbanner2 { width:720px; height:43px; padding:22px 0 0 237px}
+
+/*RODAPE*/
+.mallRodape {width:971px; margin:0 auto; height:341px; background:url(https://www.edubras.com.br/lojas/00020861/images/bgrod.png) no-repeat; text-align:left}
+.titrod { font-size:14px; font-weight:bold; color:#2664BE}
+.subtitrod {font-size:11px; font-weight:bold; color:#797979}
+.mallRodape .rod1 { height:126px; padding-top:22px}
+.rod1 .bInstucional { float:left; width:429px; margin-left:24px; height:126px}
+.rod1 .bInstucional a { text-decoration:none; font-size:12px; color:#888; display:block; float:left; padding-left:15px; width:188px; line-height:18px;background: url(../loja-img/bola.png) no-repeat center left;}
+.rod1 .bInstucional a:hover { color:#2664BE;}
+.rod1 .bNews { float:left; width:231px; margin-left:20px; height:126px}
+.rod1 .bEdnereco { float:left; width:223px; margin-left:32px; font-size:11px; color:#818181; height:126px}
+.mallRodape .rod2 { height:85px}
+.rod2 .bPagamentos { float:left; width:410px; margin-left:24px; height:85px}
+.rod2 .bEnvio { float:left; width:222px; margin-left:34px; height:85px}
+.rod2 .bRedes { float:left; width:230px; margin-left:38px; height:85px}
+
+.mallRodape .rod3 { height:43px; text-align:center; font-size:11px; color:#dedede}
+.mallRodape .rod4 { height:34px; text-align:center; font-size:13px; color:#C4CEDC}
+.newsNome { width:206px; height:21px; font-size:12px; color:#666; border:1px solid #ccc; clear:both; margin-bottom:4px; margin-top:8px}
+.newsemail { width:176px; height:21px;  font-size:12px; color:#666; border:1px solid #ccc; float:left}
+.newbotao {background:url(../loja-img/bt_news2.gif) no-repeat; width:24px; margin-left:5px; height: 21px; border: 0px; cursor: pointer; float:left}
+
+/*ESQUERDA*/
+.menume { width:217px; overflow-x:hidden; margin-left:15px}
+.EstListCat ul, .EstListCat li { list-style:none; margin:0; padding:0; position:relative}
+.EstListCat a { text-decoration:none}
+.CatOpened, .CatOpened ul li, ul.CatOpened li, .CatClosed, .PathCat0, .PathCat1, .PathCat2, .PathCat3, .PathCat4, .PathCat5 {width:215px;height:36px;position:relative; margin:0}
+ul.CatOpened li, .CatOpened, .PathCat0 {display:table} 
+.CatClosed, img.wid { display:none}
+span.ImgClosed, span.ImgOpened { position:absolute; width:217px;; height:36px; z-index:1000; cursor:pointer; background:url(vaziu.jpg)}
+.PathCat0 a, .PathCat0 { font-size:16px; background:url(https://www.rumo.com.br/lojas/00020861/images/bg_menu.png) no-repeat; color:#000;}
+.PathCat0 a { padding-left:6px;line-height:36px;display:table;} 
+.PathCat1, .PathCat2, .PathCat3, .PathCat4, .PathCat5 { padding:0px;text-transform:none;display:table}
+.PathCat1 a, .PathCat2 a, .PathCat3 a, .PathCat4 a, .PathCat5 a {padding-left:15px;width:217px;line-height:36px;height:36px;display:table;color:#193E77;font-size:13px; background:url(https://www.rumo.com.br/lojas/00020861/images/bg_menu2.png) repeat-y;font-weight:bold}
+.PathCat1 a:hover, .PathCat2 a:hover, .PathCat3 a:hover, .PathCat4 a:hover, .PathCat5 a:hover {color:#fff;background:url(../loja-img/bg_menu3.png) repeat-y}
+.PathCat1 a.PathCatActive {color:#fff;background:url(../loja-img/bg_menu3.png) repeat-y}
+
+/*LISTA PRODUTOS*/
+.hProd { display:block; float:left; width:278px; height:137px; text-decoration:none; margin:13px 5px 13px 0; border:1px solid #bbb; padding:5px}
+.hProd .EstImgFC { width:135px; height:135px; margin-right:8px; border:1px solid #bbb; float:left}
+.hProd .htit { font-family: 'Open Sans Condensed', sans-serif; font-size:16px; color:#143D70;font-weight:bold }
+.hProd .hpreco { font-size:16px; color:#E50101; font-weight:bold}
+.hProd .hparc { font-size:12px; color:#9B9A9A}
+.hProd:hover { border:1px solid #008006; background:#EAEAEA}
+.hcomprar { font-size:14px; font-weight:bold; color:#2664BE}
+
+.hprodLista { padding:4px; border:1px solid #ccc; margin:6px 0}
+.hProd2 .EstImgFC { width:80px; height:80px; margin-right:10px; border:1px solid #bbb; float:left}
+.htit2 { font-size:13px; color:#143D70; font-weight:bold;text-transform:uppercase; line-height:20px}
+.htitr { font-size:12px; color:#333;}
+.hdesc2 {font-size:12px; color:#000}
+.hpreco2 {font-size:14px; color:#fff}
+.hparc2 { font-size:12px; color:#fff}
+.hProd2 .hcomprar {font-size:12px; color:#fff; display:block; height:95px; width:95px; background:#008106; margin-left:5px; text-align:center; float:left}
+
+/* ProdDet */
+.dFaixa0 { display:block; text-align:center;  font-size:32px; height:64px; color:#356AA0; font-weight:bold; text-transform:uppercase; width:705px; height:55px; margin-top:15px; margin-bottom:15px;}
+.dpreco { font-size:17px; font-weight:bold; color:#FF0000}
+.dparcela { font-size:14px; color:#666;}
+.dComprar { text-align:right; background:url(../loja-img/dfaixa1.png) no-repeat  right; background-position-y: 70px;}
+.dFaixa1 {width:695px; margin:6px 0}
+.dFaixa3 {width:705px; font-size:13px; color:#000;}
+.dDescricao {width:675px; padding:10px 15px 10px 15px; margin:6px 0 0 0; border-bottom:none}
+.dDescricao p, .conteudoCompleto p {font-family: 'CoreHumanistSans-Regular-webfont', Arial, sans-serif;font-size:14px}
+.descricao { width:85%; float:right; text-align:justify}
+#textoP1 {background:#316C99; border:1px solid #316c99}
+strong.titD { font-size:14px}
+#textoP1 p { color:#fff}
+#textoP2 { border:1px solid #ccc}
+#textoP2 p { color:#000}
+#textoP3 {}
+
+.btCompleto {width:675px; padding:0 15px 0 15px; margin:0; border-bottom:none; background:#fff; text-align:center; border:0px solid #CCC}
+.conteudoCompleto {width:675px; padding:10px 15px 10px 15px; margin:0 0 10px 0; border-bottom:none; background:#ccc; border:1px solid #ccc; position:relative; display:table}
+#ocultarc { position:absolute; right:5px; top:5px;}
+#ocultarcb { position:absolute; right:5px; bottom:5px;}
+
+.dFaixa4 {width:675px; padding:10px 15px 10px 15px; border:1px solid #5F8D5F; margin:5px 0 5px 0; background:#80BF83; display:table}
+.dFaixa4 img {margin-top:10px !important;}
+.dmDescricao, .dmDescricao p {font-size:12px; color:#000; line-height:17px;}
+.dFaixa5 {width:695px; padding:0 5px; height:113px; border:1px solid #ddd; margin:6px 0;background:#fff url(../loja-img/dfaixa5.png) no-repeat bottom right}
+.dFaixa6 {width:695px; padding:5px; border:1px dashed #A8A8A8; margin:6px 0;}
+.dFaixa6 .avulsosTit { line-height:48px; font-size:16px; font-weight:bold; color:#193E77;}
+.dFaixa7 {width:695px; padding:12px 5px; margin:6px 0; text-align:center; border-radius:4px}
+.dFaixa7 a { text-decoration:none; font-weight:700; color:#FFCC00; font-size:16px}
+.dFaixa7 a strong { color:#FFCC00}
+.mdetSub img { height:80px}
+.botaoflu {width:124px; position:fixed; right:10px; top:40%}
+.botaoflu a {width:124px; height:217px;  background:url(../loja-img/botaolat.png) no-repeat; display:block}
+
+/* Descriao  HTML */
+.dmVideo { width:705px; height:59px;background:#fff url(../loja-img/dmvideo.png) no-repeat}
+/*.dmVideob { width:705px; height:59px;background:#fff url(../loja-img/dmVideob.png) no-repeat}*/
+.dmAutor{ width:675px; padding:9px 15px 16px 15px;background:#F7F7F7 url(../loja-img/dmautor.png) no-repeat; border:1px solid #E4E4E4; margin-top:6px}
+.dmCurta { width:675px; padding:20px 15px 20px 15px;background:#F7F7F7 url(../loja-img/dmautor.png) no-repeat; border:1px solid #E4E4E4; margin-top:6px}
+.titInstrutor, .titDescricao { line-height:26px; color:#143D70; font-size:14px; font-weight:bold}
+.nomeInstrutor {line-height:26px; color:#000; font-size:14px; font-weight:bold; text-transform:uppercase}
+.curriculoInstrutor, .textoCurta { font-size:13px; color:#000;}
+.textoCurta { font-size:14px; color:#000; font-weight:bold}
+
+
+
+.detFoto { width:258px }
+.detInfo { width:514px; background:#333 }
+.detInfo { width:514px;}
+.detInfo span { margin-left:27px; display:block }
+.detInfo .dredes { padding-top:9px}
+.detInfo .dnome { padding-top:18px; font-weight:bold; text-transform:uppercase; color:#fc0 }
+.detInfo .dref { padding-top:2px; font-size:11px; color:#ccc }
+.detInfo .dpreco { padding-top:30px; color:#fff; font-size:22px }
+.detInfo .dparcela { padding-top:2px; color:#fff; font-size:14px  }
+.detInfo .dcompre { padding-top:26px; }
+.detDesc {background:#fff url(../loja-img/detdesc.png) repeat-x }
+.detDesc .mdesc { margin:15px; font-size:12px; line-height:17px;}
+.detDescf {background:#fff url(../loja-img/detdescf.png) repeat-x; height:30px }
+
+.dFaixa4 .dmDescricao img { float:left; margin:0 8px 0 0; width:80px; height:80px}
+
+.tCursocompleto { font-size:14px; font-weight:bold; line-height:22px; color:#000;}
+
+.FundoBarraDireita img.EstImgFC { width:115px; height:316px; margin:4px 0 4px 8px}
+
+.olink a, .olink a:hover, .olink a:visited, .olink a:active {color:#03C; text-decoration:underline}
+
+ul#TopoMenuTodos {list-style:none;margin:7px 7px 7px 0}
+ul#TopoMenuTodos li {display:block;width:160px;list-style:none;}
+ul#TopoMenuTodos li a span {font-size:0;visibility:hidden;}
+ul#TopoMenuTodos li ul {display:none;position:absolute;background:#FFFFFF;width:350px;height:180px;border:1px solid #445B71;padding:0px 0px 0px 0px;z-index:3;margin:0px 0px 0px 0px}
+ul#TopoMenuTodos li:hover ul, ul#TopoMenuTodos li.over ul {display:block;}
+ul#TopoMenuTodos li ul li {float:left;width:33%;height:auto;padding:1px 0px 0px 0px}
+ul#TopoMenuTodos li ul li a {color:#6B8AA9;font-size:13px;padding:0px 0px 0px 0px }
+ul#TopoMenuTodos li ul li#menuCatalogo {float:none;clear:left;width:100%;border-top:1px solid #CCC;position:relative;top:20px;padding-bottom:20px;text-align:center;}
+ul#TopoMenuTodos li ul li#TitCartFC {color:blue;font-size:8pt;font-family:tahoma,verdana;font-weight:bold}
+#NomeCategoriaCat {font-size:14px;padding:10px 0px 0px 30px;color:#000000}
