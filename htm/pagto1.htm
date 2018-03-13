@@ -1,0 +1,30 @@
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NB64WH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NB64WH');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Pagto adicional 1 -->
+<script>
+if(<IDFormaPagamento>==11){
+  document.write('<br><br><center>');
+  document.write('<form name="dineromailfc" action="https://brasil.dineromail.com/dinero-tools/login/shop/shop_ingreso.asp" method="post" target="_blank">');
+  document.write('<input type="hidden" name="TipoMoneda" value="1">');
+  document.write('<input type="hidden" name="E_Comercio" value="127512">');
+  document.write('<input type="hidden" name="image_url" value="https://www.rumo.com.br/lojas/00021777/images/LogoTopo.gif">');
+  document.write('<input type="hidden" name="DireccionExito" value="https://www.rumo.com.br/sistema/Custom.asp?IDLoja=21777&arq=DineroMailOK.htm">');
+  document.write('<input type="hidden" name="DireccionFracaso" value="https://www.rumo.com.br/sistema/Custom.asp?IDLoja=21777&arq=DineroMailErro.htm">');
+  document.write('<input type="hidden" name="MediosPago" value="4,5,6,14,15,19,20,21,22,23,24,25,18,26,27,28,29,30,31,32,33,34,35,36,37,7">');
+  document.write('<input type="hidden" name="Flete" value="<Frete>">');
+  document.write('<input type="hidden" name="NombreItem" value="Pedido efectuado en Centro Nacional de Educación a Distancia">');
+  document.write('<input type="hidden" name="NroItem" value="# <NumPedido>">');
+  document.write('<input type="hidden" name="PrecioItem" value="<TotalSemFrete>">');
+  document.write('<input type="image" src="https://brasil.dineromail.com/imagen/botones/tools/boton-pagar-04-BR.gif" border="0" name="submit" alt="Pagar con DineroMail">');
+  document.write('</form>');
+  document.write('</center>');
+}
+</script>
