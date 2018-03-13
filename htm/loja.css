@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+
+#TabInterna{
+	background:url(https://www.edubras.com.br/lojas/00020861/images/bgConteudo.gif) repeat-y}
+
+.descricao{
+	background:#e7e7e7;
+	width:687px;
+	margin-top:20px;
+	padding:10px;
+	}
+
+
+.descricao img{
+	display:block !important;
+	float:left;
+	}
+
+.descricao span{
+	display:block;
+	float:left;
+	}
+
+.banner-promocional{
+	width:705px;
+	}
+
+.menume a{
+	display:block;
+	padding:3px 0 0 15px;
+	color:#000;
+	text-decoration:none;
+	}
+
+.menume h3{
+		background:url(https://www.rumo.com.br/lojas/00020861/images/bg_menu.png) no-repeat;
+	display:block;
+	width:217px;
+	height:36px;
+	font-size:12px;
+	padding:5px 0;
+	margin:5px 0 0 0 !important;}
+
+.hProd {
+	border:none !important;
+	}
+
+.hprodLista {
+	border:none !important;
+	border-bottom:#CCC 1px solid !important;
+	}
+
+.hpreco{
+	color:#090 !important;}	
+
+.EstImgFC{
+	border:#EAEAEA 1px solid !important;}
+
+
+
+.dFaixa1 h2{
+	font-family:Arial, sans-serif;font-size:32px !important;
+	font-size:24px !important;}
+	
+.mbuscaA a{
+	display:block;
+	font-size:9px;
+	padding-top:4px;}
+
+
+.mbannerTop{background:url(https://www.rumo.com.br/lojas/00020861/images/layout/bg3.jpg) repeat-x;}
+
+.mbannerTopo{
+	height:150px;
+	}
+
+.BotDetProdOut{
+	float:left !important;
+	}
+
+
+
+
+/* CABECALHO LOJA */
+
+.cab-loja{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/cab_loja.png) no-repeat;
+	width:968px;
+	height:100px;
+	}
+	
+.col-esq{
+	float:left;
+	}
+
+.col-dir{
+	float:left;
+	}	
+
+.m-145{
+	margin-left:145px;
+	}
+
+.dist h2{
+	margin:0;
+	padding:5px 0 0 5px;
+	color:#00deff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	}	
+
+.logo-loja{
+	height:45px;
+	margin-top:20px;}
+
+.submenu-loja ul{
+	width:400px;
+	height:32px;
+	margin:5px 0 0 20px;
+	padding:0;
+	list-style:none;
+	}
+
+.bt-sub{
+	display:inline-block;
+	width:90px;
+	height:23px;
+	margin-left:5px;
+	padding-top:3px;
+	padding-left:30px;
+	float:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18x;
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFF;
+	}
+
+.ico1{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/ico1.png) no-repeat; }
+
+.ico2{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/ico2.png) no-repeat; }	
+
+.ico3{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/ico3.png) no-repeat; }	
+
+.ico4{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/ico4.png) no-repeat; }	
+
+.menu-loja ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-left:12px;
+	}
+
+.bt-menu{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/menu_off.png) no-repeat;
+	display:block;
+	width:100px;
+	height:64px;
+	margin-right:1px;
+	float:left;
+	list-style:none;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:18x;
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFF;
+	}
+
+.ico_m{
+	padding:8px 0;
+	}
+.m_verde{
+	border-top:5px solid #63c000;
+	}
+
+.m_vermelho{
+	border-top:5px solid #f80000;
+	}
+
+.m_laranja{
+	border-top:5px solid #ffb400;
+	}
+
+.m_azul{
+	border-top:5px solid #00deff;
+	}
+
+.link_m a{
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:1px 1px #003366;
+	}
+
+.link_m a:hover{
+	color:#033;
+	text-shadow:1px 1px #FFF;
+	}	
+
+.bt-menu:hover{
+	background:url(https://www.rumo.com.br/lojas/00020861/images/layout/menu_on.png) no-repeat;
+	}
+
+.bar_azul{
+	background:#181f4f;
+	width:968px;
+	padding-left:10px;
+	}
+	
+.abed{
+	float:left;
+	}
+
+.l_busca{
+	/*background:#0a0e2b; */
+	margin:0 40 0 210px;
+	padding:0 20px 0 20px;
+	float:left;
+	}
+
+.l_busca input{
+       background:#FFF;
+	width:250px;
+	height:28px;
+	margin:6px 0 0 0;
+	border:none;
+	}
+
+.l_button input{
+	display:block;
+	width:36px !important;
+	height:28px !important;
+	margin-top:6px !important;
+	float:right;
+	
+	}
+
+.l_busca2{
+	float:left;
+	}
+
+	
+.l_botao_a {
+	background-color:#3d94f6;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	margin-top:6px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	border:1px solid #337fed;
+	display:block;
+	float:left;
+	}
+
+.l_botao_a a{
+	display:block;
+	padding:0 15px 0 15px;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:135px;
+	text-indent:0;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+	color:#ffffff;
+	}
+
+.l_botao_a:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+	}
+
+.l_botao_a:active {
+	position:relative;
+	top:1px;
+	}
+
+
+
+/* FIM CABECALHO LOJA */
+
+
+
+
+.ac-container{
+	width: 100%;
+	margin: 10px auto 10px auto;
+	text-align: left;
+}
+.ac-container label{
+	background: url(https://www.rumo.com.br/lojas/00020861/images/acoordion/arrow_down.png) no-repeat 99%  #F00;
+	/*background:no-repeat #990000;
+	background: -moz-linear-gradient(top, #FF0000 1%, #990000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#FF0000), color-stop(100%,#990000));
+	background: -webkit-linear-gradient(top, #FF0000 1%,#990000 100%);
+	background: -o-linear-gradient(top, #FF0000 1%,#990000 100%);
+	background: -ms-linear-gradient(top, #FF0000 1%,#990000 100%);
+	background: linear-gradient(top, #FF0000 1%,#990000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#990000',GradientType=0 ); */
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
+		0px 2px 2px rgba(0,0,0,0.1);
+	font-weight:bold;
+	padding: 0px 20px 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 50px;
+	line-height: 53px;
+	font-family:Arial, sans-serif;font-size:22px !important;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+	color: #ffffff;
+	cursor: pointer;
+	margin-bottom:10px;
+}
+
+.ac-container label:hover{
+	background: #710000;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #143D70;
+	color: #FFF;
+	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
+	text-shadow:#00002F 1px 1px;
+	box-shadow: 
+		0px 0px 0px 1px rgba(155,155,155,0.3), 
+		0px 2px 2px rgba(0,0,0,0.1);
+}
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 5px;
+	background: transparent url(https://www.rumo.com.br/lojas/00020861/images/acoordion/arrow_down.png) no-repeat center center;	
+}
+
+
+.ac-container label h3{
+font-family: 'Open Sans Condensed', sans-serif;
+margin:0; padding: 10px 0 0 0;
+
+}
+
+.ac-container input:checked + label:hover:after{
+	background-image: url(https://www.rumo.com.br/lojas/00020861/images/acoordion/arrow_up.png);
+}
+.ac-container input{
+	display: none;
+}
+.ac-container article{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.ac-container article p{
+	font-style: italic;
+	color: #777;
+	line-height: 23px;
+	font-size: 14px;
+	/*padding: 20px;*/
+	margin:0px;
+	padding: 5px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.ac-container input:checked ~ article{
+	-webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	-ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+}
+.ac-container input:checked ~ article.ac-small{
+	/*height: 700px;*/
+	height: 100%;
+}
+.ac-container input:checked ~ article.ac-medium{
+	/*height: 540px;*/
+	height: 100%;
+}
+.ac-container input:checked ~ article.ac-large{
+	/*height: 300px;*/
+	height: 100%;
+	background-color:#E2F0F5;
+}
+
+/* INSTRUTORES */
+
+#block html, #block body, #block div, #block span, #block applet, #block object, #block iframe,
+#block h1, #block h2, #block h3, #block h4, #block h5, #block h6, #block p, #block blockquote, #block pre,
+#block a, #block abbr, #block acronym, #block address, #block big, #block cite, #block code,
+#block del, #block dfn, #block em, #block img, #block ins, #block kbd, #block q, #block s, #block samp,
+#block small, #block strike, #block strong, #block sub, #block sup, #block tt, #block var,
+#block b, #block u, #block i, #block center,
+#block dl, #block dt, #block dd, #block ol, #block ul, #block li,
+#block fieldset, #block form, #block label, #block legend,
+#block table, #block caption, #block tbody, #block tfoot, #block thead, #block tr, #block th, #block td,
+#block article, #block aside, #block canvas, #block details, #block embed, 
+#block figure, #block figcaption, #block footer, #block header, #block hgroup, 
+#block menu, #block nav, #block output, #block ruby, #block section, #block summary,
+#block time, #block mark, #block audio, #block video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+#block article, #block aside, #block details, #block figcaption, #block figure, 
+#block footer, #block header, #block hgroup, #block menu, #block nav, #block section {display: block;}
+#block body {line-height: 1;}
+#block ol, #block ul {list-style: none;list-style-position:outside;}
+#block blockquote, #block q {quotes: none;}
+#block blockquote:before, #block blockquote:after,
+#block q:before, #block q:after {content: '';content: none;}
+#block table {border-collapse: collapse;border-spacing:0;}
+
+#block {font-family:Georgia,sans-serif;font-size:15px;}
+#block{width:90%;padding:20px 6px 0 6px;margin:0 auto;}
+#block h3{background:url(https://www.edubras.com.br/lojas/00020861/images/instrutor/h3.png) no-repeat center;color:#dd3c04;font-size:13px;font-weight:normal;text-align:center;text-transform:uppercase;margin-bottom:17px;}
+#block .photo{background:url(https://www.edubras.com.br/lojas/00020861/images/instrutor/photo_bg.png) no-repeat center;margin-right:6px;position:relative;float:left;}
+#block .photo img{max-width:115px;max-height:115px;overflow:hidden;position:absolute;}
+#block .photo img.photo_bg{z-index:1;}
+#block .photo img.photo{left:0;}
+#block p.content{font-style:italic;line-height:24px;padding-left:19px;margin-left:121px;position:relative;overflow:hidden;}
+#block p.content span {text-indent;}
+#block p.content span.laquo{background:url(https://www.edubras.com.br/lojas/00020861/images/instrutor/laquo.png) no-repeat;width:14px;height:11px;position:absolute;left:0;top:4px;display:block;}
+#block p.content span.raquo{background:url(https://www.edubras.com.br/lojas/00020861/images/instrutor/raquo.png) no-repeat right 4px;width:13px;height:15px;padding-left:4px;display:inline-block;}
+#block .sign{text-align:right;float:right;}
+#block .sign a{color:#577302;font-family:Arial,sans-serif;font-size:13px;text-decoration:none;}
+#block .sign a:hover{text-decoration:underline;}
+#block .sign p{color:#5a5a5a;font-size:12px;line-height:15px;margin-top:6px;}
+
+/* INSTRUTORES */
+
