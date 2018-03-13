@@ -1,0 +1,28 @@
+/*
+Reset Spokes
+*/
+
+/*RESET*/
+body {margin:0; padding:0; font-size:12px; font-family:Arial, sans-serif;background:#fff url(../images/layout/bg2.jpg) repeat-x}
+body + table + tr + td, p.EstContinuarComprando, tr.EstEspacoTopoConteudo { display:none}
+.FundoTopoExt {text-align:center}
+#TabRodapeExterno { width:100%; text-align:center}
+.Titulos { font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#008106; font-style:italic}
+.Titulos2 { font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#143D70; line-height:25px}
+ul, li { list-style:none; margin:0; padding:0}
+img { border:none}
+.EstEspacoEsquerdaConteudo img { width:10px}
+
+.desCuston { margin-top:20px}
+.desCuston p { font-size:12px; color:#000; line-height:18px}
+.desCuston p.mfaq { margin-left:15px}
+.desCuston p.mfaq a { text-decoration:none; font-size:12px; font-weight:bold; color:#008106}
+.desCuston p.mfaq a:hover { color:#000}
+
+/*Configura botoes*/
+#idTabBotPreviousNextFC #idTxtBotNextPageFC{background:#5AA23B;text-align:center;width:100px;padding:5px;color:#ffffff;cursor:pointer;font-size:11px;font-weight:bold; text-transform:uppercase; text-decoration:none; border-radius:3px;}
+#idTabBotPreviousNextFC #idTxtBotPreviousPageFC{background:#666;text-align:center;width:100px;padding:5px;color:#ffffff;cursor:pointer;font-size:11px; text-transform:uppercase; text-decoration:none; border-radius:3px;}
+#idnextpagefc a, #idpreviouspagefc a {
+text-decoration: none;
+}
+
