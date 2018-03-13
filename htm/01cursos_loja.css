@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+.dFaixa1h2{
+	background:#036;
+	padding-top:10px !important;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px !important;
+	text-align:center;
+	color:#FFF;
+	display:block;
+	height:34px !important;
+	}
+
+.dFaixa1 h2{
+	margin:0;
+	padding:0;
+	}
+	
+.fotoamp{
+	width:210px !important;
+	float:left;
+	}
+
+
+
+.img-prod a img{width:210px !important; height: 170px !important; float:left;}
+
+.fotoamp img{
+	width:210px;
+        height:170px;
+	}
+
+.caracteristicas{
+	width:485px;
+	float:left;
+	}
+
+.clear{
+	clear:both;
+	}
+
+.bloco{
+
+
+	
+}
+
+.bloco h3{
+	background: url(https://www.rumo.com.br/lojas/00020861/images/seta_branca.png) no-repeat #143D70;
+	display:block;
+	height:30px;
+	padding-top:3px;
+	padding-left:40px;
+	color:#FFF;
+}
+
+.blocov{
+       margin-bottom:20px !important;
+}
+
+
+.videos-tit h3{
+	background: url(https://www.rumo.com.br/lojas/00020861/images/video.png) no-repeat #ff0000;
+	margin-left:1%;
+}
+
+.pathway{
+	font-family: 'Abel', sans-serif;
+}
+
+.play{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-50px;
+	margin-left:-50px;
+	}
+
+.lista{list-style-type: square}
+
+.lista li{display: block; margin: 0 0 0 10px !important; padding: 2!important;}
+
+
+.clear{ clear:both;}
+
+
