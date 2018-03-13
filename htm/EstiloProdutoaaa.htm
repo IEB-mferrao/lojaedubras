@@ -1,0 +1,130 @@
+<ProdTop>
+<link rel="stylesheet" href="../lojas/00020861/htm/css/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="../lojas/00020861/htm/js/jquery.js"></script>
+<script type="text/javascript" src="../lojas/00020861/htm/js/thickbox.js"></script>
+<!--[if IE]>
+<style>
+ul.lstColor li input{display:inline;width:0}
+</style>
+<![endif]-->
+<style>
+.mntext{font-size:8pt;font-family:tahoma,verdana,arial}
+/*Reset*/
+td.EstTabTopo, div.simpleTabsContent .EstTabTopo, .FundoBarraDireita, .Titulos, .EstLinhaProd { display:none}
+.EstLinhaBarra { width:8px}
+#TabInterna { background:url(../lojas/00020861/images/layout/bgconteudodet.gif) repeat-y}
+.mfimTopo {background:url(../lojas/00020861/images/layout/bgfimtopodet.png) no-repeat}
+td { font-family:Arial, Helvetica, sans-serif;}
+</style>
+<script>
+var bDet=false;
+</script>
+<JurosParcelas>
+<script>
+function MostraMaxParcela(PrecoProd,MaxParcelas){
+  var ComSem;
+  if(PrecoProd==0||MaxParcelas==1||Juros.length==0)return;
+  if(MaxParcelas==0||MaxParcelas>Juros.length)MaxParcelas=Juros.length;
+  if(Juros[MaxParcelas-1]>0)ComSem=""; else ComSem="&nbsp;sem&nbsp;juros";
+  document.write("ou&nbsp;<b>"+MaxParcelas+"x</b>"+ComSem+" de&nbsp;<b>"+FormatPrecoReais(CalculaParcelaJurosCompostos(PrecoProd,MaxParcelas))+"</b>");
+}
+
+function MostraParcelas(PrecoProd,MaxParcelas){
+  var ComSem,EstiloLinha;
+  if(PrecoProd==0||MaxParcelas==1||Juros.length==0)return;
+  if(MaxParcelas==0||MaxParcelas>Juros.length)MaxParcelas=Juros.length;
+  document.write("<img src='../lojas/00018799/images/layout/titparcelamento.jpg' /><br><span style=line-height:17px;>");
+  for(var i=0;i<MaxParcelas;i++){
+    if(Juros[i]>0)ComSem="com juros"; else ComSem="<font color=#e13300>sem&nbsp;juros</font>";
+    if((i%2)==0)EstiloLinha='EstParcPar'; else EstiloLinha='EstParcImpar';
+    document.write((i+1)+"x "+ComSem+" de: "+FormatPrecoReais(CalculaParcelaJurosCompostos(PrecoProd,i+1))+"<br>");
+  }
+  document.write("</span>");
+}
+</script>
+</ProdTop>
+
+<ProdLista>
+<div class="hprodLista">
+<table width="705" border="0" cellspacing="2" cellpadding="0">
+  <tr>
+    <td width="80" height="80" class="hProd2"><ImagemProd></td>
+    <td class="htit2"><script>document.write('<NomeProd>'.substring(0,56));</script></td>
+    <td width="80" height="80" bgcolor="#CCCCCC"><div align="center" class="hdesc2">25 horas</div></td>
+    <td width="80" height="80" bgcolor="#000000"><div align="center"><span class="hpreco2"><PrecoSimples></span><br /><span class="hparc2"><script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></span></div></td>
+    <td width="140" height="80" bgcolor="#1D4A8E">
+    <a href="/prod,idloja,20861,idproduto,<IDProduto>,<NomeProd>"><img src="<BaseLoja>images/layout/btmaism.png" alt="comprar" /></a></td>
+  </tr>
+</table>
+</div>
+</ProdLista>
+
+<ProdDet>
+<div class="dFaixa0"><NomeProd></div>
+
+<div class="dFaixa1">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">  
+  <tr>
+    <td width="165" height="150" valign="top"><img width="145" height="145" src="<ImagemProdDet>" /></td>
+    <td valign="top"><span class="dpreco">
+      <PrecoSimples></span><br />
+     <span class="dparcela"><script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></span><br />
+     <img src="../lojas/00020861/images/layout/dpagamento.gif"  />
+      <table>
+       <tr>  
+      <td><ShareFacebook></td>
+      <td><ShareTwitter></td>
+      <td><ShareOrkut></td>
+      <td><Facebook type="like" send="true" layout="button_count" width="150" show_faces="false"></td>
+      <td><GooglePlusOne size="small"></td>
+     </tr>
+      </table>
+    </td>    
+    <td width="148" valign="bottom" class="dComprar"><FormProd><LinkComprar></FormProd></td>
+  </tr>
+</table>
+</div>
+
+<div class="dFaixa3"><DescrHTM></div>
+
+<div class="dFaixa4">
+<span class="dmDescricao"><Descricao></span>
+</div>
+
+<div class="dFaixa5">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="120"><img width="98" height="98" src="<ImagemProdDet>" style=" margin:5px 0 0 5px;" /></td>
+      <td width="360"><span class="dpreco"><PrecoSimples></span><br /><span class="dparcela"><script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></span></td>
+      <td valign="bottom"><LinkComprar></td>
+    </tr>
+  </table>
+</div>
+
+<div class="dFaixa6" style="display:none" id="temsub">
+ <span class="avulsosTit">&nbsp;&nbsp;Compre os modulos avulsos</span><br />
+ <table width="100%" border="0" cellspacing="2" cellpadding="0">
+<sub>
+<script>
+var bTemSubProdsM=true;
+</script>
+  <tr>
+    <td height="80" align="center"  bgcolor="#f1f1f1"><span class="dmDescricao"><Descricao></span></td>
+    <td width="150" style="text-align:center" bgcolor="#000000"><span class="hpreco2"><PrecoSimples></span><br /><span class="hparc2"><script>MostraMaxParcela(<PrecoNum>,<MaxParcelasProdNum>);</script></span></td>
+    <td width="105" bgcolor="#143D70" align="center" class="mdetSub"><FormProd><LinkComprar></FormProd></td>
+  </tr> 
+</sub>
+</table>
+</div>
+<div class="dFaixa7">
+<a href="#">Receba dicas de merdado GRÁTIS</a>
+</div>
+<script type="text/javascript">
+if(bTemSubProdsM) {
+document.getElementById('temsub').style.display='block';
+}
+</script>
+</ProdDet>
+
+<ProdAmp>
+</ProdAmp>
