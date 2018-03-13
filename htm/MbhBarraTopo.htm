@@ -1,0 +1,70 @@
+<script type="text/javascript">
+IDLoja='<IDLoja>'; //Obtém IDLoja para montar links
+IDLojaNum='<IDLojaNum>';
+sCaminhoImages='<BaseLoja>images/'
+var sCaminhoImagens='<BaseLoja>'+'images/'
+</script>
+<script language="JavaScript" src="../sistema/magiczoom.js"></script>
+<script language="JavaScript" src="<BaseLoja>htm/MbhLojaLib.js"></script>
+<script language="JavaScript" src="<BaseLoja>htm/MbhFormAjust.js"></script>
+<!-- Slideshow
+<script type="text/javascript" src="/jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript" src="<BaseLoja>htm/Mbhnivo_slider.js"></script>
+<link rel="stylesheet" href="<BaseLoja>htm/Mbhnivo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<BaseLoja>htm/Mbhnivo_slider.css" type="text/css" media="screen"/> 
+<script type="text/javascript">
+  jQuery.noConflict();
+    jQuery(window).load(function() {
+      jQuery('#slider').nivoSlider({
+    });
+  });
+</script> -->
+<link type="text/css" rel="stylesheet" href="http://www.cursoedubras.com.br/loja_mbh.css">
+<link rel="stylesheet" href="http://www.cursoedubras.com.br/loja_mbh_menu.css" />
+<script type="text/javascript" src="http://www.cursoedubras.com.br/jquery-1.9.1.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#nav-mobile").html($("#nav-main").html());
+        $("#nav-trigger span").click(function(){
+            if ($("nav#nav-mobile ul").hasClass("expanded")) {
+                $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+                $(this).removeClass("open");
+            } else {
+                $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+                $(this).addClass("open");
+            }
+        });
+    });
+</script>
+
+<div class="mbh-cab">
+<img src="https://www.rumo.com.br/lojas/00020861/images/layout/l_edubras.png" alt="Instituto Edubras" /> </div>
+<div style="clear:both;">
+
+       <div id="nav-trigger">
+            <span>MENU PRINCIPAL</span>
+        </div>
+        <nav id="nav-main">
+            <ul>
+                <li><a href="/home.asp?idloja=20861">Início</a></li>
+                <li><a href="/ListaProdutos.asp?IDLoja=20861&Avancada=True&Digitada=True&texto=+++&Any=False&IDCategoria=0&PrecoDe=&PrecoAte=&order=3&Produtos=10&Buscar=+Buscar+">Cursos</a></li>
+                <li><a href="http://edubras.cursos-on-line-distancia.com" target="_blank">Alunos</a></li>
+                <li><a href="/page,idloja,20861,arq,duvidas.htm,duvidas-faq">Dúvidas</a></li>
+                <li><a href="/page,idloja,20861,arq,afiliados.htm,afiliados">Afiliados</a></li>
+                <li><a href="/page,idloja,20861,arq,instrutores.htm,instrutores">Instrutores</a></li>
+                <li><a href="/page,idloja,20861,arq,atendimento.htm,atendimento">Contato</a></li>
+            </ul>
+        </nav>
+        <nav id="nav-mobile"></nav>
+
+
+</div>
+
+<script type="text/javascript">
+oTextoBusca=document.getElementById("TextoBusca");
+if(oTextoBusca.value=="")oTextoBusca.value="Digite sua busca";
+</script>
+
+
