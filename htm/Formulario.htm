@@ -1,0 +1,109 @@
+<p><strong>Nossos canais de contato:</strong></p>
+<li><b>Skype: institutoedubras</b></li>
+<li><b>Hangouts: cursoedubras@gmail.com</b></li>
+<li><b>Telefone: (41) 3532-4352</b></li>
+<li><b>WhatsApp: EM BREVE NOVO WHATSAPP</b></li>
+<li><b>E-mail: contato@cursoedubras.com.br</b></li>
+<style>
+.EstNomeCampo{line-height:4;}
+</style>
+<table align=center width=90% cellspacing=1 cellpadding=5 class=EstTabPedido>
+      <form name=form method=POST action=EnviaMail.asp>
+        <input type=hidden name=NomePara value='Cursos Edubras'>
+        <input type=hidden name=EmailPara value='cursoedubras@gmail.com'>
+        <input type=hidden name=Assunto value='Fale conosco'>
+        <input type=hidden name=URLRetorno value='<HTMLoja>Obrigado.htm'>
+        <input type=hidden name=OrdemCampos value='NomeDe,EmailDe,TelefoneDe,CursoDe,Comentarios'>
+  <tr>
+    <td align=center colspan=2 class=EstTabPedidoTit>Fale conosco</td>
+    <br>
+  </tr>   
+  <tr>
+    <td width=120 align=right class=EstNomeCampo>Nome:</td>
+    <td><input type=text name=NomeDe class=InputText size=25 maxlength=50></td>
+    <br>
+  </tr>
+  <tr>
+    <td align=right class=EstNomeCampo>E-mail:</td>
+    <td><input type=text name=EmailDe class=InputText size=25 maxlength=50></td>
+    <br>
+  </tr>
+    <tr>
+    <td align=right class=EstNomeCampo>Telefone:</td>
+    <td><input type=text name=TelefoneDe class=InputText size=25 maxlength=50></td>
+      <br>
+  </tr>
+  <tr>
+    <td align=right class=EstNomeCampo>Curso desejado:</td>
+    <td><input type=text name=CursoDe class=InputText size=25 maxlength=50></td>
+    <br>
+  </tr>            
+  <tr>
+    <td align=right valign=top class=EstNomeCampo>Comentários:</td>
+    <td><textarea wrap=virtual cols=18 rows=4 name="Comentarios" class=InputText style=height:50px;width:250px></textarea></td>
+    <br>
+  </tr>  
+  <tr>
+    <td colspan=2 align=center><input type=button name=Enviar value=' Enviar ' class=InputButton onclick='javascript:ValidaForm()'></td>
+  </tr></form>
+</table>
+
+<script>
+function ValidaForm(){
+
+ //Contato Nome
+ if(isEmpty(document.form.NomeDe.value)){
+    AvisoErroCampo(document.form.NomeDe,'Informe seu nome.');
+    return false;
+ }
+
+ //E-mail
+ if(isEmpty(document.form.EmailDe.value) || !ValidaEmailInt(document.form.EmailDe.value)){
+    AvisoErroCampo(document.form.EmailDe,'Informe seu e-mail.');
+    return false;
+ }
+
+
+ //Comentários
+ if(isEmpty(document.form.Comentarios.value)){
+    AvisoErroCampo(document.form.Comentarios,'Comentário não pode ser branco.');
+    return false;
+ }
+
+ document.form.submit();
+}
+
+function ValidaEmailInt(sEmail) {
+  var regex=/^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
+  return regex.test(sEmail);
+}
+
+function retiraEspaco(theString) {
+//retira espaços de string
+  if(theString.indexOf(" ")>=0){
+    var i=0;
+    while(theString.indexOf(" ")>=0){
+      if(theString.charAt(i)==" ")theString=theString.substring(0,i)+theString.substring(i+1,theString.length);
+      else i++;
+    }
+    newString=theString;
+  } 
+  else newString=theString;
+  return newString;
+}
+
+function isEmpty(s){return((retiraEspaco(s)==null)||(retiraEspaco(s).length==0));}
+
+function AvisoErroCampo(theField,warnText){
+  theField.focus();
+  theField.select();
+  alert(warnText);
+  return false;
+}
+
+function AvisoErroCampo_SelectBox(theField,s){
+  theField.focus();
+  alert(s);
+  return false;
+}
+</script>
