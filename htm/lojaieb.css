@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Francois+One|Josefin+Sans|Muli|Pacifico');
+
+/* Use the following CSS rules to specify these families:
+
+font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Francois One', sans-serif;
+font-family: 'Muli', sans-serif;
+
+*/
+
+body {
+
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+    background-color: #ddd;
+}
+
+.comoFunciona {
+    font-family: 'Muli', sans-serif;
+}
+
+.conteudo{
+    font-family: 'Muli', sans-serif;
+}
+
+.nossosAlunos {
+    font-family: 'Pacifico', cursive, sans-serif, monospace;
+    font-size: 42px;
+
+}
